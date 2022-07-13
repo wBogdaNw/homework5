@@ -1,45 +1,60 @@
 * {
-    text-decoration: none;
+ margin-left: 10px;
 }
+
 a {
+    text-decoration: none;
     color: inherit;
 }
+
 li {
     transition: 1s;
     margin-bottom: 15px;
 }
-li:hover{
+
+li:hover {
     margin-left: 15px;
     background-color: antiquewhite;
 }
+
 h3 {
     color: rgb(83, 207, 186);
 }
+
 .red {
     color: red;
 }
+
 #green {
     color: green;
 }
+
 [target="_blank"] {
     color: darkorchid;
 }
-.strong, #em {
+
+.strong,
+#em {
     color: cyan;
 }
+
 a span {
     color: chartreuse;
 }
+
 div {
     display: inline;
     color: rgb(240, 41, 161);
 }
-a > div{
+
+a>div {
     color: rgb(146, 98, 9);
 }
-b ~ em {
+
+b~em {
     color: brown;
 }
-.a__neighbor + li{
+
+.a__neighbor+li {
     color: rgb(111, 107, 75);
 }
