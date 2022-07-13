@@ -8,29 +8,76 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header>
-    <nav>
-        
-    </nav>
-   </header>
-   <main>
+    <header>
         <h3>Selectors</h3>
+    </header>
+    <main>
         <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+                <a class="first__li"
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors"><strong>*</strong> -
+                    Universal selector (One style for all web page elements)
+                </a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors"><strong>h3</strong> - Type
+                    selectors (Selects all elements that have the given node name.)</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors"
+                    class="red"><strong>.red</strong> - Class selectors (Selects all elements that have the given class
+                    attribute.)</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors"
+                    id="green"><strong>#green</strong> - ID selectors (Selects an element based on the value of its id
+                    attribute.)</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
+                    target="_blank"><strong>[target="_blank"]</strong> - Attribute selector (Selects all elements that
+                    have the given attribute.)</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Selector_list"><strong class="strong">.strong,
+                        #em</strong> - Selector<em id="em"> list</em> (The "," selector is a grouping method that
+                    selects all the matching nodes.)</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator">
+                    <span>
+                        <strong>a span</strong> -
+                        <span>Descendant combinator</span>
+                    </span>(The " " (space) combinator selects nodes that are descendants of the first element.)</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator">
+                    <div>
+                        <strong>a > div</strong> -
+                        <div><i>Child combinator (The > combinator selects nodes that are direct children of the first
+                                element.)</i></div>
+                    </div>
+                </a>
+            </li>
+            <li class="a__neighbor">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator">
+                    <em>Selector</em>
+                    <b>b ~ em</b>
+                    <i> - this is </i>
+                    <em>General</em>
+                    <sub>sibling</sub>
+                    <em>combinator</em> (The ~ combinator selects siblings. This means that the second element follows
+                    the first (though not necessarily immediately), and both share the same parent.)
+                </a>
+            </li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator"><strong>.a__neighbor
+                        + li</strong> - Adjacent sibling combinator (The + combinator matches the second element only if
+                    it immediately follows the first element.)</a></li>
         </ol>
-   </main>
-   <footer>
-    <address>Ukraine, Vinnytsia</address>
-    <time datetime="2022-07-10">10-07-2022</time>
-   </footer>
+    </main>
+    <footer>
+        <address>Ukraine, Vinnytsia</address>
+        <time datetime="2022-07-13">13-07-2022</time>
+    </footer>
 </body>
 </html>
